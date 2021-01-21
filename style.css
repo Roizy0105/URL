@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 102, 153, 0.5);
+  border: solid;
+  border-width: 3rem;
+  border-color: rgba(230, 0, 0);
+  height: 100vh;
+}
+
+#split_url {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(230, 0, 0);
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 3rem;
+}
