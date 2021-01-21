@@ -1,5 +1,5 @@
 //get the url
-let url = window.location.search.substring(1);
+let url = window.location.href;
 
 //split it by ? or &
 let array = url.split(/\?|&/);
